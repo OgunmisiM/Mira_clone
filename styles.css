@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ede7f6;
+    width: 100%;
+}
+.navbar{
+    position: relative;
+    background-color: rgba(26, 35, 126,1);
+    height: 60px;
+    padding: 10px;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left_end{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.left{
+    position: absolute;
+    top: 13px;
+    left: 60px;
+    font-size: 25px;
+}
+
+.right{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-size: 15px;
+}
+
+.logo{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}
+
+.center h2{
+    color:   rgba(26, 35, 126,1);
+    font-size: 35px;
+    font-weight: lighter;
+    padding-bottom: 15px;
+}
+
+.center p{
+    font-size: 16px;
+}
+
+.box{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    width: 430px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black ;
+
+}
+
+.box p{
+    padding: 20px 5px 5px 0px;
+    font-size:large;
+    font-weight: normal;
+}
+.box input[type="text"]{
+    border: none;
+    border-bottom: 1px solid rgba(26, 35, 126,1);
+    outline: none;
+    width: 90%;
+    height: 30px;
+    font-size: 15px;
+    
+}
+
+.box input[type="password"]{
+    border: none;
+    border-bottom: 1px solid   rgba(26, 35, 126,1);
+    outline: none;
+    width: 90%;
+    height: 30px;
+}
+
+.btn{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.btn input[type="button"]{
+    width: 190px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    background-color: rgba(26, 35, 126,1);
+    color: white;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.for_pass{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.for_pass a{
+    text-decoration: none;
+    color: slateblue;
+}
