@@ -133,3 +133,15 @@ li a{
     text-decoration: none;
     color: slateblue;
 }
+
+@media only screen and (max-width: 768px) {
+    div {
+      width: 100%;
+    }
+  }
+
+@media only screen and (max-width: 770px){
+    .for_pass{
+        text-align: center;
+    }
+}
