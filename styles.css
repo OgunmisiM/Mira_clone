@@ -145,3 +145,17 @@ li a{
         text-align: center;
     }
 }
+
+@media only screen and (max-width: 450px){
+    .box{
+        width: 80%;
+    }
+
+    .center {
+        position:absolute;
+    }
+    
+    .center h2{
+        position: absolute;
+    }
+}
